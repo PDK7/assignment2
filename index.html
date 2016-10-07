@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="author: pdk7">
+  <title>NOT identity theft </title>
+  <link rel="stylesheet" href="./CSS/form.css">
+</head>
+<body>
+  <div class="content">
+    <h2>Fill out the following form to sign up for CatFax!&reg;</h2>
+    <p>We will literally fax you cats&trade;</p>
+    <form id="identity-theft-form">
+      <div id = "warnings">
+      </div>
+      <fieldset>
+        <legend>Personally identifying information</legend>
+        <h3>Who are you?</h3>
+        <p>
+          <label for="name" class="required-label">
+            Name*:
+            <input type="text" id="name" name="name_input">
+          </label>
+        </p>
+        <p>
+          <label for="ssn" class="required-label">
+            SSN*:
+            <input type="text" id="ssn" name="ssn_input">
+          </label>
+        </p>
+        <p>
+          <label for="phone" class="required-label">
+            Phone Number*:
+            <input type="text" id="phone" name="phone_input">
+          </label>
+        </p>
+        <p>
+          <label for="maiden" class="required-label">
+            Mother's maiden name*:
+            <input type="text" id="maiden" name="maiden_input">
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Some stuff about cats so we can fool them</legend>
+        <h3>What kind of cats do you want faxed to you:</h3>
+        <label for="tiny-cats" class="frivolous-label">
+          Tiny ones!
+          <input type="radio" name="cat-type" value="tiny" id="tiny-cats"> 
+        </label>
+        <label for="killer-cats" class="frivolous-label">
+          The murderous kind! 
+          <input type="radio" name="cat-type" value="killer" id="killer-cats">
+        </label>
+        <label for="creepy-cats" class="frivolous-label">
+          Creepy looking ones!
+        </label>
+          <input type="radio" name="cat-type" value="hairless" id="creepy-cats">
+        <label for="none-cats" class="frivolous-label">
+          Cats are against my religion ...
+        </label>
+          <input type="radio" name="cat-type" value="none" id="none-cats">
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Please don't fill this out</legend>
+        <h3>Tell us about your favorite cat!</h3>
+        <textarea name="vomit" form="identity-theft-form" rows="4" cols="50"></textarea>
+      </fieldset>
+      <input type="submit" value="Get your cats faxed now!" id="submit-button">
+    </form>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+  <script src="./JS/checkform.js" type="text/javascript"></script>
+</body>
+</html>
+

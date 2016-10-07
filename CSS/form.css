@@ -1,0 +1,24 @@
+html {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  font-family: Verdana, sans-serif;
+  font-size: .8em;
+  background: #686b70;
+}
+
+fieldset {
+  margin: 5px;
+}
+
+#submit-button {
+  margin: 5px;
+}
+
+div.content {
+  background: beige;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
